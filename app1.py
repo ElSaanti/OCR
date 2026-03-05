@@ -16,12 +16,6 @@ with st.expander("📖 Cómo usar el OCR", expanded=True):
         2. **Filtro**: Si el texto es difícil de leer, prueba activar el filtro en la barra lateral.
         3. **Resultado**: El texto detectado aparecerá mágicamente debajo de la foto.
         """)
-    with col2:
-        try:
-            # Insertamos tu imagen aquí
-            st.image(Image.open('traductor.jpg'), use_container_width=True)
-        except:
-            st.write("🖼️")
 
 st.divider()
 
