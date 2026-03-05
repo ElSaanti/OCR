@@ -20,7 +20,8 @@ with st.expander("📖 Cómo usar el OCR", expanded=True):
 st.divider()
 
 img_file_buffer = st.camera_input("Toma una Foto")
-st.subheader("Busca cualquier objeto con un texto para probarlo")
+
+st.info("🔍 **Sugerencia:** Busca algo con un texto claro (un libro, una etiqueta o un cartel) para probar el OCR.")
 
 with st.sidebar:
     st.subheader("Configuración")
